@@ -1,5 +1,5 @@
 function fetchData() {
-    fetch('https://your-node-app.azurewebsites.net/api/data')
+    fetch('https://https://node-api-server-ap-fagsgte7fsdqhyct.centralus-01.azurewebsites.net/api/data')
     .then(response => response.json())
     .then(data => {
         document.getElementById('output').textContent = JSON.stringify(data);
